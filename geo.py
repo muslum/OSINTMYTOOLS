@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from twitter import *
-from textblob import TextBlob
 import sys
 import csv
 
