@@ -47,11 +47,6 @@ while result_count <  num_results:
             data = user,":","",text,"",latitude,longitude,"","sentiment analysis:"
             print(data)
             print("-------------------------------------------------------------")
-
-
-
-
-
             row = [ user, text, latitude, longitude ,sentiment ]
             csvwriter.writerow(row)
             result_count += 1
